@@ -83,3 +83,28 @@
   background-image: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .05));
   cursor: pointer;
 }
+
+.secaoDiferenciais {
+  padding-bottom: 0;
+  background-color: #f7f4f4;
+}
+
+.diferenciais {
+  text-align: center;
+}
+
+.diferenciais li{
+  margin: 0 3em 2em 3em;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 350px;
+  padding-left: 4em;
+}
+
+.diferenciais h2 {
+  color: #4F4C4C;
+  font-size: 1.2em;
+  margin-top: .9em;
+  margin-bottom: .6em;
+}
