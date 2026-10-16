@@ -95,11 +95,11 @@
 }
 
 .container{
-  flex:1;
+  flex: 1;
 
 }
 
-.diferenciais{
+.diferenciais li{
   display: flex;
   text-align: center;
   gap: 15px;
