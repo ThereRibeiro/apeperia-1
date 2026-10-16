@@ -40,7 +40,7 @@
 .container {
   padding: 3.5em 5%;
   margin: 0 auto;
-  max-width: 1000px;
+  width: 1000px;
 }
 main {
     display: block;
