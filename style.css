@@ -37,9 +37,10 @@
 .cabecalho-nav-item a:hover{
   color: #d45b68;
 }
-main{
-  display: block;
-    width: 100%;
+.container {
+  padding: 3.5em 5%;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 .conteudo {
   height: 600px;
