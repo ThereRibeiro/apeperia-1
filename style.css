@@ -37,17 +37,25 @@
 .cabecalho-nav-item a:hover{
   color: #d45b68;
 }
+main{
+  display: block;
+    width: 100%;
+}
 .conteudo {
-  height: 600px;
-    background-image: url("bg-intro.jpg");
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    min-height: 341px;
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-  }
+
+    background-image:
+        linear-gradient(rgba(7, 13, 20, 0.42), rgba(7, 13, 20, 0.42)),
+        url("bg-intro.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
 
   .secaoDestaque{
     width: 80%;
@@ -86,6 +94,8 @@
 }
 
 .secaoDiferenciais {
+    width: 100%;
+    display: block;
     background-color: #f7f4f4;
     padding: 57px 24px 35px;
 }
@@ -97,7 +107,7 @@
 }
 
 .diferenciais {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 36px;
     list-style: none;
