@@ -58,11 +58,13 @@ main {
     text-align: center;
   }
 
-  .secaoDestaque{
-    width: 80%;
-    max-width: 850px;
-
-  }
+  .secaoDestaque {
+  text-align: center;
+  background-size: cover;
+  background-color: #00161c;
+  padding: 10em 2em 3em 2em;
+  color: #fff;
+}
   .conteudo h1{
     color: white;
     font-size: 58px;
