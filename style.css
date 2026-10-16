@@ -43,7 +43,7 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -86,21 +86,24 @@
 }
 
 .secaoDiferenciais {
-  padding-bottom: 0;
+  display:flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 5%;
+  text-align: center;
   background-color: #f7f4f4;
 }
 
-.diferenciais {
-  text-align: center;
+.container{
+  flex:1;
+
 }
 
-.diferenciais li{
-  margin: 0 3em 2em 3em;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  max-width: 350px;
-  padding-left: 4em;
+.diferenciais{
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .diferenciais h2 {
