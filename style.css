@@ -111,4 +111,11 @@
   font-size: 1.2em;
   margin-top: .9em;
   margin-bottom: .6em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 2.5em;
+  padding-left: 42px;
+  padding-top: .5em;
+  transform: translateX(-42px);
+  text-transform: uppercase;
 }
