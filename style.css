@@ -52,16 +52,13 @@ main {
   width: 100%;
 }
 
-.conteudo {
-  background-image: url("bg-intro.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .secaoDestaque {
   text-align: center;
   padding: 8em 2em;
   color: #fff;
+  background-image: url("bg-intro.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .secaoDestaque-titulo {
