@@ -217,14 +217,14 @@ main {
   display: inline-block;
 }
 
-.secaoPlanos-plano--start {
+.secaoPlanos-plano-start {
   color: #56CCF2;
 }
 
-.secaoPlanos-plano--ultra {
+.secaoPlanos-plano-ultra {
   color: #B04CD9;
 }
 
-.secaoPlanos-plano--mega {
+.secaoPlanos-plano-mega {
   color: #E33B3B;
 }
