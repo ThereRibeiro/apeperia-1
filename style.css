@@ -263,6 +263,7 @@ main {
 .secaoPlanos-plano-btn {
   color: inherit;
   font-weight: bold;
+  font-size: 1.2em;
   background-color: transparent;
   border-width: 1px;
   border-style: solid;
@@ -274,4 +275,11 @@ main {
 .secaoPlanos-plano-btn:hover,
 .secaoPlanos-plano-btn:focus {
   color: #fff;
+}
+
+@media (min-width: 830px) {
+
+  .secaoPlanos-plano {
+    max-width: 260px;
+  }
 }
