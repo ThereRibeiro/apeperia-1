@@ -258,6 +258,10 @@ main {
   color: #666;
 }
 
+.secaoPlanos-plano-itens li {
+  display: block;
+}
+
 .secaoPlanos-plano-btn {
   color: inherit;
   font-weight: bold;
