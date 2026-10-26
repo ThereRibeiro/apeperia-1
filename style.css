@@ -251,16 +251,15 @@ main {
 }
 
 .secaoPlanos-plano-itens {
-  display: flex;
   text-align: left;
   line-height: 2;
   list-style: disc;
   color: #666;
 }
 
-.secaoPlanos-plano-itens-teste {
+/*.secaoPlanos-plano-itens-teste {
   display: block;
-}
+}*/
 
 .secaoPlanos-plano-btn {
   color: inherit;
