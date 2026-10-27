@@ -214,7 +214,7 @@ main {
   padding-bottom: 2em;
   box-shadow: 0 2px 9px #ddd;
   max-width: 300px;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .secaoPlanos-plano-start {
@@ -255,6 +255,7 @@ main {
   line-height: 2;
   list-style: disc;
   color: #666;
+  display: block;
 }
 
 .secaoPlanos-plano-btn {
