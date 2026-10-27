@@ -274,10 +274,27 @@ main {
   color: #fff;
 }
 
+.secaoBlog {
+  text-align: center;
+}
 
-@media (min-width: 830px) {
+.listaDeArtigos-artigo {
+  text-align: left;
+  padding-bottom: 2em;
+  max-width: 815px;
+  display: inline-block;
+  white-space: normal;
+}      
 
-  .secaoPlanos-plano {
-    max-width: 260px;
-  }
+.listaDeArtigos {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.listaDeArtigos-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: none;
 }
