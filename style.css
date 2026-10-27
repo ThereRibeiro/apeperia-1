@@ -214,7 +214,7 @@ main {
   padding-bottom: 2em;
   box-shadow: 0 2px 9px #ddd;
   max-width: 300px;
-  /*display: inline-block;*/
+  display: inline-block;
 }
 
 .secaoPlanos-plano-start {
@@ -299,9 +299,27 @@ main {
   display: none;
 }
 
+.listaDeArtigos-item:not(:target):first-child{
+  display: inline-block;
+}
+
+.listaDeArtigos-item:target {
+  display: inline-block;
+}
+
+
 .listaDeArtigos-artigo-img {
   width: 100%;
   display: block;
+}
+
+/* Apenas para diferenciar as imagens */
+.listaDeArtigos-item:nth-of-type(2) img {
+  filter: sepia(.7)
+}
+
+.listaDeArtigos-item:nth-of-type(3) img {
+  filter: hue-rotate(10deg) saturate(1)
 }
 
 .listaDeArtigos-artigo-titulo {
