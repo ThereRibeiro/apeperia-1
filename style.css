@@ -184,6 +184,12 @@ main {
     padding-top: 1.5em;
     position: relative;
   }
+.secaoPlanos .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
   .secaoSobre-plataformas:before {
     content: '';
@@ -314,7 +320,7 @@ main {
   display: block;
 }
 
-/* Apenas para diferenciar as imagens */
+
 .listaDeArtigos-item:nth-of-type(2) img {
   filter: sepia(.7)
 }
@@ -344,16 +350,17 @@ main {
 }
 
 .listaDeArtigos-slider-item {
-  text-indent: -9999px;
-  display: inline-block;
-  overflow: hidden;
-  background-color: #d4d4d4;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin: 0 .5em;
-  border: 0;
+    text-indent: -9999px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    width: 16px; 
+    height: 16px; 
+    margin: 0 .5em;
+    border: 0;
 }
+
 
 .listaDeArtigos-slider-item:hover,
 .listaDeArtigos-slider-item:focus {
